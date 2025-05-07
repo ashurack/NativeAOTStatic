@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeAOTStatic", "NativeAOTStatic\NativeAOTStatic.csproj", "{895E1B6C-D330-4914-99A9-1727AF0EBAFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBuildExtractLinkNative", "MSBuildExtractLinkNative\MSBuildExtractLinkNative.csproj", "{5C6062E2-0113-432C-8036-0AA5300C45EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		aot-static.Dockerfile = aot-static.Dockerfile
+		build.bat = build.bat
+		build-static.sh = build-static.sh
+		build.sh = build.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{895E1B6C-D330-4914-99A9-1727AF0EBAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895E1B6C-D330-4914-99A9-1727AF0EBAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895E1B6C-D330-4914-99A9-1727AF0EBAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895E1B6C-D330-4914-99A9-1727AF0EBAFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C6062E2-0113-432C-8036-0AA5300C45EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6062E2-0113-432C-8036-0AA5300C45EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6062E2-0113-432C-8036-0AA5300C45EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6062E2-0113-432C-8036-0AA5300C45EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DC5594C-ACE1-4706-A078-38CDD920CE2A}
+	EndGlobalSection
+EndGlobal
