@@ -13,5 +13,14 @@
 	<DebuggerSupport>false</DebuggerSupport>
 	<EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
 	<IlcOptimizationPreference>SpeedAndSize</IlcOptimizationPreference>
+
+    <TrimmerRemoveSymbols>true</TrimmerRemoveSymbols>
+	<StackTraceSupport>false</StackTraceSupport>
+	<UseSystemResourceKeys>true</UseSystemResourceKeys>
   </PropertyGroup>
+
+	<PropertyGroup>
+		<IlcGenerateMstatFile>true</IlcGenerateMstatFile>
+		<IlcGenerateDgmlFile>true</IlcGenerateDgmlFile>
+	</PropertyGroup>
 </Project>
