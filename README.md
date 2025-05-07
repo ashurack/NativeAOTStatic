@@ -33,3 +33,7 @@ sh-3.2#
 sh-3.2# NativeAOTStatic/bin/Release/net9.0/linux-musl-x64/native/NativeAOTStatic
 Hello, World!
 ```
+
+## Helpful Tools
+- [MSBuild Binary and Structured Log Viewer](https://msbuildlog.com/)
+- [sizoscope](https://github.com/MichalStrehovsky/sizoscope)
