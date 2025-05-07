@@ -9,7 +9,7 @@ namespace MSBuildExtractLinkNative
         static void Main(string[] args)
         {
 #if DEBUG
-            var msbuild_log_path = @"C:\Users\ashurack\source\repos\btoolex\publish.binlog";
+            var msbuild_log_path = @"<YOUR_PATH_TO_REPO>\NativeAOTStatic\publish.binlog";
 #else
             var msbuild_log_path = String.Join(' ', args);
 #endif
